@@ -1,7 +1,8 @@
 import React from 'react'
+import '../../../assets/css/home/home-layout.css'
 
 const HomeLayout = (props) => (
-  <div className="HomeLayout">
+  <div className="home-layout">
     {props.children}
   </div>
 )

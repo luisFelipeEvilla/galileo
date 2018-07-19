@@ -52,4 +52,12 @@ module.exports = {
             }
         ]
     },
+
+    plugins: [
+    new webpack.DllReferencePlugin({
+      context: __dirname,
+      manifest: require('../dist/js/modules-manifest.json')
+    })
+  ]
+
 }

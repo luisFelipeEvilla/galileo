@@ -17,7 +17,7 @@ module.exports = (env) => {
 
   const plugins = [
       new MiniCssExtractPlugin({
-          filname: "css/[name].[hash].css",
+          filename: "../css/[name].[hash].css",
           chunkFilename: "[id].[hash].css"
       })
   ]
@@ -33,7 +33,7 @@ module.exports = (env) => {
       },
 
       output: {
-          path: path.resolve(__dirname, '../dist'),
+          path: path.resolve(__dirname, '../dist/js'),
           filename:  '[name].[hash].js',
           publicPath: path.resolve(__dirname, 'dist') + "/"
       },
@@ -60,13 +60,16 @@ module.exports = (env) => {
           },
 
           {
-              test: /\.css$/,
-          use: [
-              {
-                  loader: MiniCssExtractPlugin.loader
-              },
-              "css-loader"
-          ]
+            test: /\.css$/,
+            use: [
+                {
+                  loader: MiniCssExtractPlugin.loader,
+                  options: {
+                    publicPath: path.resolve(__dirname, 'dist') + "/"
+                  }
+                },
+                "css-loader"
+            ]
           },
 
           {
