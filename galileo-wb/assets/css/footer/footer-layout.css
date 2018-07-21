@@ -1,0 +1,48 @@
+.footer-layout {
+  background: #2B2E4A;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-evenly; 
+}
+
+.footer-layout .col1 .logo {
+  height: 80%;
+  width: 60%;
+}
+
+.col1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.col2 {
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 1em;
+}
+
+.col2 ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.col2 ul span {
+  color: #c06c84;
+}
+
+.col2 ul a {
+  text-decoration: none;
+  color: #F8F3D4;
+}
+
+.col2 ul a:hover {
+  text-decoration: underline;
+  font-size: 1.1em
+}
+
+.col3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

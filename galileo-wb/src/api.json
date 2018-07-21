@@ -1,5 +1,5 @@
 {
-  "links": [
+  "headerLinks": [
     {
       "name": "Home",
       "href": "#"
@@ -12,5 +12,33 @@
       "name": "Liceo",
       "href": "#"
     }
-  ]
+  ],
+
+  "footerSocialLinks": [
+     {
+      "name": "WhatsApp",
+      "url": "+573045621107",
+      "tel": true,
+      "icon": "../../../assets/svg/icons/whatsapp.svg"
+    },
+
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/evilla_felipe",
+      "icon": "../../../assets/svg/icons/twitter.svg"
+    },
+
+    {
+      "name": "facebook",
+      "url": "https://twitter.com/evilla_felipe",
+      "icon": "../../../assets/svg/icons/facebook.svg"
+    },
+
+    {
+      "name": "instagram",
+      "url": "https://twitter.com/evilla_felipe",
+      "icon": "../../../assets/svg/icons/instagram.svg"
+    }
+
+    ]
 }

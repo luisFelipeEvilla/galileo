@@ -3,7 +3,7 @@
   justify-content: space-between;
   /* background-color: */
   align-items: center;
-  background: #3FC1C9;
+  background: #2B2E4A;
   display: flex;
   align-items: center;
   padding: 17px 0;
@@ -31,7 +31,7 @@
   border-radius: 5px;
   border-bottom: 2px solid #F8F3D4;
   background: #fc5185;
-  box-shadow: 0 5px 5px ##F8F3D4;
+  box-shadow: 0 0px 5px #F8F3D4;
 }
 
 .logo {

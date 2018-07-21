@@ -1,0 +1,9 @@
+.contact-links {
+    padding: 0;
+    display: flex;
+}
+
+.contact-links a{
+    margin: .2em;
+}
+
